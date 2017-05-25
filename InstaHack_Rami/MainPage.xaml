@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="InstaHack_Rami.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InstaHack_Rami"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <WebView x:Name="Webview"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch"
+                 Grid.Row="0"
+                 Source="https://www.instagram.com/explore/"
+                 ContentLoading="Webview_OnContentLoading"
+                 FrameNavigationCompleted="Webview_OnFrameNavigationCompletedew_FrameNavigationCompleted" />
+        <StackPanel HorizontalAlignment="Stretch"
+                    Height="60"
+                    Grid.Row="1"
+                    VerticalAlignment="Stretch" />
+    </Grid>
+</Page>

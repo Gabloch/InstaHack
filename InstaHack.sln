@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaHack", "InstaHack\InstaHack.csproj", "{75F63DF7-B9FD-4856-A360-C5CD1985640C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaHack_Rami", "InstaHack_Rami\InstaHack_Rami.csproj", "{2D45189A-6DF4-4893-BC21-2E661131B13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,24 @@ Global
 		{75F63DF7-B9FD-4856-A360-C5CD1985640C}.Release|x86.ActiveCfg = Release|x86
 		{75F63DF7-B9FD-4856-A360-C5CD1985640C}.Release|x86.Build.0 = Release|x86
 		{75F63DF7-B9FD-4856-A360-C5CD1985640C}.Release|x86.Deploy.0 = Release|x86
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|ARM.Build.0 = Debug|ARM
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|x64.ActiveCfg = Debug|x64
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|x64.Build.0 = Debug|x64
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|x64.Deploy.0 = Debug|x64
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|x86.ActiveCfg = Debug|x86
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|x86.Build.0 = Debug|x86
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Debug|x86.Deploy.0 = Debug|x86
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|ARM.ActiveCfg = Release|ARM
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|ARM.Build.0 = Release|ARM
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|ARM.Deploy.0 = Release|ARM
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|x64.ActiveCfg = Release|x64
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|x64.Build.0 = Release|x64
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|x64.Deploy.0 = Release|x64
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|x86.ActiveCfg = Release|x86
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|x86.Build.0 = Release|x86
+		{2D45189A-6DF4-4893-BC21-2E661131B13D}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

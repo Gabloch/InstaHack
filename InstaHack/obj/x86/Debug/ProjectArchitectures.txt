@@ -1,1 +1,0 @@
-C:\Users\Gabriel\documents\visual studio 2017\Projects\InstaHack\InstaHack\InstaHack.csproj;x86
